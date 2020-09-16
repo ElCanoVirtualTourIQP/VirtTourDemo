@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body onload="controls()">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -24,11 +24,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
+      var loaderUrl = buildUrl + "/521b70268c8fab9841964e1b75279d0c.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Build.framework.js",
-        codeUrl: buildUrl + "/Build.wasm",
+        dataUrl: buildUrl + "/b789025f0d7510f6e956996abefc6ed6.data",
+        frameworkUrl: buildUrl + "/20300145f6da6704bdffdc3f04194bbe.js",
+        codeUrl: buildUrl + "/68fb567507a99387c69d16754dbe1926.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ElCanoIQP",
         productName: "Virtual Tour",
@@ -65,11 +65,6 @@
         });
       };
       document.body.appendChild(script);
-    </script>
-    <script>
-      function controls() {
-        alert("This is a demo! This does not represent the final product! \n \n Press spacebar to toggle mouse control to and from the application once the appplication fully loads."); 
-      }
     </script>
   </body>
 </html>
